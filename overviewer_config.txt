@@ -1,0 +1,33 @@
+worlds["main"] = "C:/Users/Miked/AppData/Roaming/.minecraft/saves/Ensaymada (World 1)-3"
+
+renders["survival"] = {
+    "world": "main",
+    "title": "Daytime",
+    "rendermode": smooth_lighting,
+    "dimension": "overworld",
+}
+
+renders["survivalsouth"] = {
+    "world": "main",
+    "title": "Daytime South",
+    "rendermode": smooth_lighting,
+    "dimension": "overworld",
+    "northdirection" : "lower-right",
+}
+
+renders["survivalnether"] = {
+    "world": "main",
+    "title": "Nether",
+    "rendermode": nether_smooth_lighting,
+    "dimension": "nether",
+}
+
+renders["survivalnethersouth"] = {
+    "world": "main",
+    "title": "Nether South",
+    "rendermode": nether_smooth_lighting,
+    "dimension": "nether",
+    "northdirection" : "lower-right",
+}
+
+outputdir = "D:/Minecraft"

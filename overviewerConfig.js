@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "main - overworld",
+        "main - nether"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1653413728",
+        "cacheTag": "1653956878",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,15 +42,15 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (lighting)",
+            "name": "Daytime",
             "zoomLevels": 9,
             "defaultZoom": 1,
             "maxZoom": 9,
-            "path": "world-lighting",
+            "path": "survival",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
-            "last_rendertime": 1653412022,
+            "world": "main - overworld",
+            "last_rendertime": 1653898820,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -66,6 +67,79 @@ var overviewerConfig = {
                 48
             ],
             "north_direction": 0
+        },
+        {
+            "name": "Daytime South",
+            "zoomLevels": 9,
+            "defaultZoom": 1,
+            "maxZoom": 9,
+            "path": "survivalsouth",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "main - overworld",
+            "last_rendertime": 1653898820,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                64,
+                65,
+                48
+            ],
+            "minZoom": 0,
+            "spawn": [
+                64,
+                65,
+                48
+            ],
+            "north_direction": 2
+        },
+        {
+            "name": "Nether",
+            "zoomLevels": 9,
+            "defaultZoom": 1,
+            "maxZoom": 9,
+            "path": "survivalnether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "main - nether",
+            "last_rendertime": 1653884086,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                64,
+                65,
+                48
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
+        },
+        {
+            "name": "Nether South",
+            "zoomLevels": 9,
+            "defaultZoom": 1,
+            "maxZoom": 9,
+            "path": "survivalnethersouth",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "main - nether",
+            "last_rendertime": 1653884086,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                64,
+                65,
+                48
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
         }
     ]
 };
